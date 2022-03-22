@@ -8,15 +8,14 @@ var upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'
 var lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
 //function
-
 function questions() {
     var isValid = false;
     do {
-        var askNumbers = confirm("Do you want your password to include numbers?");
+        var askNumbers = confirm("Would you like your password to include 0?");
         var length = prompt("Choose a number between 8 and 128 characters to indicate password length");
-        var askUpperCase = confirm("Do you want your password to include upper case letters?");
-        var askLowerCase = confirm("Do you want your password to include lower case letters?");
-        var askSpecial = confirm("Do you want your password to include special characters?");
+        var askUpperCase = confirm("would you like your password to include upper case characters?");
+        var askLowerCase = confirm("would you like your password to include lower case characters?");
+        var askSpecial = confirm("would you like your password to include special characters?");
         var responses = {
             askSpecial: askSpecial,
             askUpperCase:  askUpperCase,
@@ -30,7 +29,6 @@ function questions() {
         alert("Must choose at least one type.");
         else
         isValid = true;
-
     } while(!isValid);
     return responses;
 }
@@ -52,19 +50,16 @@ function generatePassword() {
         for (var i of special)
         possibleCombo.push(i);
     }
-
     if (passwordOptions.askUpperCase) {
         for (var i of upperCase)
         possibleCombo.push(i);
     }
-
     console.log(possibleCombo);
 
     for (var i = 0; i < passwordOptions.length; i++) {
         finalPassword += possibleCombo[Math.floor(Math.random() * possibleCombo.length)];
     }
     console.log(finalPassword);
-
     return finalPassword;
 
 }
