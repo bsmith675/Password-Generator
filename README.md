@@ -14,10 +14,15 @@ The mission was to create a password generator that meets acceptance criteria su
 **Javascript**
 
 -Made sure to provide an array of characters consisting of uppercase letters, lowercase letters, special characters, and numbers
+
 -I also made sure to create function to perform the task of asking various questions which are displayed through the use of variables.
+
 -Then I used if execute the code and specify that it is true.
+
 -The alert allowed for the process of displaying a virtual alert box. 
+
 -I then created a function to generate the password and used if to once again specify a true value. 
+
 -i is used to identify different variables within the function.
 
 
