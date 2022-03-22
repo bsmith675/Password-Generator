@@ -1,9 +1,21 @@
 # Password-Generator  
 
 **************************************
-[Horiseon Website](https://bsmith675.github.io/Horiseon-Code-Refactor-/)
+[Password Generator](https://bsmith675.github.io/Password-Generator/)
 **************************************
-<img width="403" alt="Screenshot 2022-03-07 at 11 56 05 PM" src="https://user-images.githubusercontent.com/98413163/157169505-86df47e4-0a46-4771-8307-a076db2f197b.png">
+Orginal Sample
+
+<img width="932" alt="Screenshot 2022-03-22 at 7 03 40 PM" src="https://user-images.githubusercontent.com/98413163/159590704-78421a46-ce8d-47b8-8d75-1ecf9a8af6f4.png">
+
+**************************************
+If you add the number 9...
+
+<img width="915" alt="Screenshot 2022-03-22 at 7 03 58 PM" src="https://user-images.githubusercontent.com/98413163/159590883-5af0784c-ffb8-4ca3-8c29-3c06cbbcc3c4.png">
+
+**************************************
+Then you can see the random password generated with 9 characters.
+
+<img width="892" alt="Screenshot 2022-03-22 at 7 04 10 PM" src="https://user-images.githubusercontent.com/98413163/159590943-4ec78974-5d20-45fa-acaa-107344380889.png">
 
 **************************************
 
