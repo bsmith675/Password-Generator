@@ -34,6 +34,32 @@ function question() {
     return responses;
 }
 
+function generatePassword() {
+    var possibleCombo = [];
+    var passwordOptions = question();
+    var finalPassword = "";
+
+    if (passwordOptions.askLowerCase) {
+        for (var i of upperCase)
+        possibleCombo.push(i);
+    }
+    if (passwordOptions.askNumbers) {
+        for (var i of numbers)
+        possibleCombo.push(i);
+    }
+    if (passwordOptions.askSpecial) {
+        for (var i of special)
+        possibleCombo.push(i);
+    }
+
+    if (passwordOptions.askUpperCase) {
+        for (var i of upperCase)
+        possibleCombo.push(i);
+    }
+
+
+}
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
